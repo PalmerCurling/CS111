@@ -15,25 +15,20 @@ public class Coin{
 				boolean c = IO.readBoolean();
 				if(c){
 					System.out.println("H is the bad coin!");
-				}
-				else{
+				}else{
 					System.out.println("G is the bad coin!");
 				}
-			}
-			else{
+			}else{
 				System.out.println("Place coin E on one side and coin G on the other.");
 				System.out.println("Are they equal?");
 				boolean d =IO.readBoolean();
 				if(d){
 					System.out.println("F is the bad coin!");
-				}
-
-				else{
+				}else{
 					System.out.println("E is the bad coin");
 				}	
 			}
-		}
-		else{
+		}else{
 			System.out.println("Place coin A on one side and coin B on the other.");
 			System.out.println("Are they equal?");
 			boolean e = IO.readBoolean();
@@ -43,19 +38,16 @@ public class Coin{
 				boolean f = IO.readBoolean();
 				if(f){
 					System.out.println("D is the bad coin!");
-				}
-				else{
+				}else{
 					System.out.println("C is the bad coin!");
 				}
-			}
-			else{
+			}else{
 				System.out.println("Put A on one side and C on the other.");
 				System.out.println("Are they equal?");
 				boolean g = IO.readBoolean();
 				if(g){
 					System.out.println("B is the bad coin!");
-				}
-				else{
+				}else{
 					System.out.println("A is the bad coin!");
 				}
 			}
